@@ -9,13 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * ChatServer
- * -----------
- * - Listens for client connections using ServerSocket (TCP)
- * - Handles multiple clients using a thread pool (ExecutorService)
- * - Broadcasts messages to all connected clients
- */
+
 public class Chatserver {
 
     private static final int PORT = 5000;
