@@ -11,10 +11,11 @@ public class Arraylist {
 
         System.out.println("ArrayList: " + nums);
 
-        nums.set(1, 25);      // change value
+        nums.set(1, 25);     
         System.out.println("After update: " + nums);
-
-        nums.remove(0);       // remove by index
+         
+        
+        nums.remove(0);       
         System.out.println("After remove: " + nums);
     }
 }
