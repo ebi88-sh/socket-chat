@@ -5,7 +5,7 @@ public class Treemap {
 
         map.put(3, "Three");
         map.put(1, "One");
-        map.put(2, "Two");  // stored in sorted key order automaticall
+        map.put(2, "Two");  // stored in sorted key order automatically
 
         System.out.println("TreeMap: " + map);
 
