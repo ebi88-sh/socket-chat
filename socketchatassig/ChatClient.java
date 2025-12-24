@@ -6,12 +6,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import javax.swing.*;
 
-/**
- * Swing-based TCP Chat Client
- * - Connects to server using Socket
- * - Sends messages to server
- * - Receives messages asynchronously
- */
+
 public class ChatClient {
 
     private static final String HOST = "localhost";
